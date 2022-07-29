@@ -15,3 +15,174 @@ hr{
     height: 1px;
     background-image: linear-gradient(to right, rgba(66, 58, 58, 0), rgba(153, 116, 116, 0.75), rgba(103, 89, 89, 0));
 } 
+
+
+
+@media only screen and (max-width:688px) {
+    .blutton{
+        
+        position: relative;
+        margin-left: -300px;
+    }
+    .first-section{
+        width: 100%;
+    }
+    .car-indicator{
+        display: none;
+    }
+    .car-texts{
+        justify-content: center;
+        align-items: center;
+    }
+    .second-section{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .course-cards-1{
+        display: none;
+        
+        
+    }
+    .course-card{
+        
+        display: flexbox;
+        flex-direction: column-reverse;
+       
+        
+    }
+    .third-section{
+        width: 100%;
+        margin-left: -80px;
+       
+        
+        
+       
+        
+    }
+    .third-none{
+        display: none;
+
+    }
+    .third-none-2{
+        display: none;
+    }
+    .fourth-section{
+
+       margin-left: 120px;
+
+        
+        
+        
+        
+    }
+    .fourth-section-div{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fourth-section-div-2{
+        text-align: center;
+    }
+    .fs-button{
+        margin-right: 80px;
+    }
+    .fifth-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .fs-h1{
+        text-align: center;
+        margin-right: 100px;
+    }
+    
+    
+    .sixth-section{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+        
+        
+    }
+    .sixth-stars{
+        display: flex;
+        flex-direction: row;
+        display: none;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width:689px) and (max-width:992px){
+    .blutton{
+        margin-left: -300px;
+    }
+    .third-section{
+        width: 80%;
+        
+        
+
+    }
+    .ts-img{
+        width: 100%;
+
+    }
+    .ts-read-more{
+        margin-left: 2px;
+    }
+    .fourth-section{
+        width: 80%;
+    }
+    .fourth-section-div{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fourth-section-div-2{
+        text-align: center;
+    }
+    .fs-button{
+        margin-right: 80px;
+    }
+    .fifth-section{
+        flex-wrap: wrap;
+        margin-left: 45px;
+        
+    }
+    .fs-spn{
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+    .fs-h1{
+        text-align: center;
+        margin-right: 110px;
+
+    }
+    
+    .sixth-section{
+        
+        
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .s-s-h1{
+        margin-left: 50px;
+    }
+    
+    
+
+}

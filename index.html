@@ -12,6 +12,7 @@
     <!-- header section starts here -->
     <header class="container">
         <!-- nav starts here -->
+        <!-- <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"> -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand fw-bold fs-" href="#">Course Arena</a>
@@ -38,52 +39,60 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Gallery</a>
                   </li>
-                  <!-- <button style="margin-left: 190px;" class="btn btn-outline-success" type="submit">Register Now</button> -->
-                  <button  style="margin-left: 300px; white-space:nowrap;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" >Regsiter Now</button>
-
+                  <div class="blutton">
                   
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <button   style="margin-left: 300px; white-space:nowrap;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" >Regsiter Now</button>
 
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content rounded-4 shadow">
-                        <div class="modal-header p-5 pb-4 border-bottom-0">
-                          <!-- <h5 class="modal-title">Modal title</h5> -->
-                          <h2 class="fw-bold mb-0">Sign Up For Free</h2>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                  
-                        <div class="modal-body p-5 pt-0">
-                          <form class="">
-                            <div class="form-floating mb-3">
-                              <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
-                              <label for="floatingInput">Email Address</label>
+                    
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content rounded-4 shadow">
+                                <div class="modal-header p-5 pb-4 border-bottom-0">
+                                <!-- <h5 class="modal-title">Modal title</h5> -->
+                                <h2 class="fw-bold mb-0">Sign Up For Free</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                        
+                                <div class="modal-body p-5 pt-0">
+                                <form class="">
+                                    <div class="form-floating mb-3">
+                                    <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput">Email Address</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                    <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                                    <label for="floatingPassword">Password</label>
+                                    </div>
+                                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign Up</button>
+                                    <small class="text-muted">By clicking Sign Up, you agree to the terms of use.</small>
+                                    <hr class="my-4">
+                                    <h2 class="fs-5 fw-bold mb-3">Or Use A Third-Party Account</h2>
+                                    <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
+                                    <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+                                    Sign up with Twitter
+                                    <i class="fa-brands fa-twitter"></i>
+                                    </button>
+                                    <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                                    <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+                                    Sign up with Facebook
+                                    <i class="fa-brands fa-instagram"></i>
+                                    </button>
+                                    <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                    <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+                                    Sign up with GitHub
+                                    <i class="fa-brands fa-github"></i>
+                                    
+                                    </button>
+                                </form>
+                                </div>
                             </div>
-                            <div class="form-floating mb-3">
-                              <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
-                              <label for="floatingPassword">Password</label>
                             </div>
-                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign Up</button>
-                            <small class="text-muted">By clicking Sign Up, you agree to the terms of use.</small>
-                            <hr class="my-4">
-                            <h2 class="fs-5 fw-bold mb-3">Or Use A Third-Party Account</h2>
-                            <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
-                              <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
-                              Sign up with Twitter
-                            </button>
-                            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
-                              <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
-                              Sign up with Facebook
-                            </button>
-                            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
-                              <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
-                              Sign up with GitHub
-                            </button>
-                          </form>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </ul>
+                
+                
                 
                   
                 
@@ -93,12 +102,12 @@
         
          <!-- nav ends here -->
          <!-- slider starts here -->
-        <section class="mt-5 container">
+        <section class="mt-5 container ">
             <!-- <h1>Learn without limits</h1>
             <p>Find a course to help you reach where you want to go.</p>  -->
-           <div >
-            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
+           <div>
+            <div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-indicators car-indicator">
                   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -109,9 +118,9 @@
             
                     <div class="container">
                       <div class="carousel-caption text-start">
-                        <h1>Learn without limits</h1>
-                        <p>Find a course to help you reach where you want to go</p>
-                        <p><a class="btn btn-lg btn-primary" href="#register-btn">Sign up today</a></p>
+                        <h1 class=" car-texts">Learn without limits</h1>
+                        <p class="car-indicator">Find a course to help you reach where you want to go</p>
+                        <p class="car-indicator"><a class="btn btn-lg btn-primary" href="#register-btn">Sign up today</a></p>
                       </div>
                     </div>
                   </div>
@@ -121,9 +130,9 @@
             
                     <div class="container">
                       <div class="carousel-caption">
-                        <h1>Find a top degree that fits your life</h1>
-                        <p>Breakthrough pricing on 100% online degrees from top universities</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        <h1 class=" car-texts">Find a top degree that fits your life</h1>
+                        <p class="car-indicator">Breakthrough pricing on 100% online degrees from top universities</p>
+                        <p class="car-indicator"><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
                       </div>
                     </div>
                   </div>
@@ -133,9 +142,9 @@
             
                         <div class="container">
                             <div class="carousel-caption text-end">
-                                <h1>Get job-ready for an in-demand career</h1>
-                                <p>Break into a new field like information technology or data science. No prior experience necessary to get started.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                                <h1 class=" car-texts">Get job-ready for an in-demand career</h1>
+                                <p class="car-indicator">Break into a new field like information technology or data science. No prior experience necessary to get started.</p>
+                                <p class="car-indicator"><a class="btn btn-lg btn-primary" href="#">Browse Gallery</a></p>
                             </div>
                         </div>
                   </div>
@@ -160,14 +169,15 @@
     <!-- second section starts here -->
 
  
-    <section style="padding-left: 30px ;" class="container mt-5">
+    <section style="padding-left: 30px ;" class="container mt-5 second-section">
         <h1 class="text-center fw-bold">Discover Our Popular Courses</h1>
         <p class="text-center">We are the most trusted online educator worldwide. Learn from the comfort of your own home with our online library of over 2000 courses</p> 
         <div class="row">
-            <div class="row row-cols-2 gap-3 justify-content-center align-items-center">
+            <!-- row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 -->
+            <div class="row row-cols-2  gap-3 justify-content-center align-items-center">
                
-                <div class="row ">
-                    <div class="d-flex gap-2" style="border: 1px solid rgb(219, 213, 213) ;border-radius: 10px;">
+                <div class="row col-md-12 col-lg-6 col-sm-12 col-12 course-cards-1">
+                    <div class="d-flex gap-2  " style="border: 1px solid rgb(219, 213, 213) ;border-radius: 10px;">
                       <img style="margin-left: -12px;" src="./images/course/course-1.png" alt="...">
                       <div class="card-body mt-4">
                             <h5 class="card-title">Fundamental Of UI/UX Design</h5>
@@ -179,7 +189,7 @@
                      
                     </div>
                   </div>
-                  <div class="row ">
+                  <div class="row col-md-12 col-lg-6 col-sm-12 col-12 course-cards-1 ">
                     <div class="d-flex gap-2" style="border: 1px solid rgb(219, 213, 213) ;border-radius: 10px;">
                       <img style="margin-left: -12px;" src="./images/course/course-2.png" alt="...">
                       <div class="card-body mt-4">
@@ -192,7 +202,7 @@
                      
                     </div>
                   </div>
-                <div class="row ">
+                <div class="row col-md-12 col-lg-6 col-sm-12 col-12 course-cards-1 ">
                     <div class="d-flex gap-2" style="border: 1px solid rgb(219, 213, 213) ;border-radius: 10px;">
                       <img style="margin-left: -12px;" src="./images/course/course-3.png" alt="...">
                       <div class="card-body mt-4">
@@ -207,7 +217,7 @@
                   </div>
                   
                 
-                <div class="row ">
+                <div class="row col-md-12 col-lg-6 col-sm-12 col-12 course-cards-1">
                     <div class="d-flex gap-2" style="border: 1px solid rgb(219, 213, 213) ;border-radius: 10px;">
                       <img style="margin-left: -12px;" src="./images/course/course-5.png" alt="...">
                       <div class="card-body mt-4">
@@ -221,7 +231,7 @@
                     </div>
                 </div>
                 
-                <div class="row ">
+                <div class="row col-md-12 col-lg-6 col-sm-12 col-12">
                     <div class="d-flex gap-2" style="border: 1px solid rgb(219, 213, 213) ;border-radius: 10px;">
                       <img style="margin-left: -12px;" src="./images/course/course-6.png" alt="...">
                       <div class="card-body mt-4">
@@ -235,7 +245,7 @@
                     </div>
                 </div>
                 
-                <div class="row ">
+                <div class="row col-md-12 col-lg-6 col-sm-12 col-12">
                     <div class="d-flex gap-2" style="border: 1px solid rgb(219, 213, 213) ;border-radius: 10px;">
                       <img style="margin-left: -12px;" src="./images/course/course-4.png" alt="...">
                       <div class="card-body mt-4">
@@ -251,20 +261,7 @@
                 
                 
 
-                <!-- <div class="col card mb-3" style="max-width: 450px;">
-                    <div class="row g-0 justify-content-center align-items-center">
-                        <div class="col-md-4">
-                            <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title fw-semibold">Motion Graphics</h5>
-                                <p class="card-text">Create Motion Graphics to enhance your videos using a step by step, easy-to-use method.</p>
-                                <h5 class="text-primary fw-semibold">Price:$50</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+                
             </div>
         </div>
         <div class="d-grid gap-4 col-3 mx-auto pt-5">
@@ -275,33 +272,33 @@
     </section>
        <!-- second section ends here -->
        <!-- 3rd section starts here -->
-       <section class="mt-5">
-        <div style="max-width: 1000px; margin-left: 180px; " class="card mb-3">
+       <section class="mt-5 third-section">
+        <div style="max-width: 1000px; margin-left: 180px; " class="card mb-3 ">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-8 col-lg-4 ts-img">
                 <img src="./images/working.png" class="img-fluid rounded-start" alt="...">
               </div>
-              <div style="background-color: #F4FAFD;" class="col-md-8">
+              <div style="background-color: #F4FAFD;" class="col-md-8 ts-img">
                 <div  class="card-body">
                   <h2 class="card-title fw-bold">Learn at your own pace with hands-on creative classes</h2>
-                  <p class="card-text">With real world projects to create and online classes that fit a busy routine, Skillshare makes real learning and growth possible.</p><br>
-                  <p class="card-text">Skillshare teachers are experts, pros, and industry icons, excited to share their wisdom, experience and trusted techniques with you.</p>
+                  <p class="card-text">With real world projects to create and online classes that fit a busy routine, Course Arena makes real learning and growth possible.</p><br>
+                  <p class="card-text">Course Arena teachers are experts, pros, and industry icons, excited to share their wisdom, experience and trusted techniques with you.</p>
                   <div class="d-flex gap-5">
                        <div>
                         <h2 class="fw-semibold">3.2K+</h2>
                         <p>Online Course</p>
                        </div>
-                       <div>
+                       <div class="third-none-2">
                         <h2 class="fw-semibold">600+</h2>
-                        <p>Expert member</p>
+                        <p>Expert members</p>
                        </div>
                        <div>
-                        <h2 class="fw-semibold">1k+</h2>
-                        <p>Rating & Review</p>
+                        <h2 class="fw-semibold third-none">1k+</h2>
+                        <p class="third-none">Rating & Review</p>
                         </div>
                        
                   </div>
-                  <div class="d-grid gap-2 d-md-block">
+                  <div class="d-grid gap-2 d-md-block ts-read-more">
                     <button class="btn btn-primary" type="button">Read More</button>
                   </div>
                 </div>
@@ -312,15 +309,15 @@
        <!-- 3rd section ends here -->
        <!-- 4th section starts here -->
       
-     <section class="bg-color-2 my-5 rounded-3">
-        <div class="d-flex justify-content-evenly align-items-center">
-            <div class="text-white">
+     <section class="bg-color-2 my-5 rounded-3 fourth-section ">
+        <div class="d-flex justify-content-evenly align-items-center fourth-section-div">
+            <div class="text-white fourth-section-div-2">
                 <h2 class="fw-semibold">Ready to join us?</h2>
                 <p>Gain practical experience as you go by creating portfolio-worthy <br> projects that will help you
                     land your next job.</p>
             </div>
-            <div>
-                <!-- <button type="button" class="btn btn-light">Register Now</button> -->
+            <div class="fs-button">
+               
                 <button  style="margin-left: 80px; white-space:nowrap;" type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" >Regsiter Now</button>
 
                   
@@ -351,14 +348,17 @@
                             <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
                                 <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
                                 Sign up with Twitter
+                                <i class="fa-brands fa-twitter"></i>
                             </button>
                             <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
                                 <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
                                 Sign up with Facebook
+                                <i class="fa-brands fa-instagram"></i>
                             </button>
                             <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
                                 <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
                                 Sign up with GitHub
+                                <i class="fa-brands fa-github"></i>
                             </button>
                             </form>
                         </div>
@@ -367,9 +367,14 @@
     </section>
      <!-- 4th section ends here -->
      <!-- 5th section starts here -->
-     <section>
-        <h1 style="margin-left: 115px ;" >Learn About Our Successfull Students</h1>
-        <div class=" container d-flex gap-5 pt-2">
+     <section class="fifth-section" >
+        <h1 class="fs-h1" style="margin-left: 115px ;">Meet Our Successfull Students</h1>
+        
+        
+        
+        <div class="container d-flex gap-5 pt-2 fifth-section">
+        
+           
             <div class="card" style="width: 300px;">
                 <img src="./images/student/student-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -408,15 +413,15 @@
       <!-- 5th section ends here -->
       <!-- 6th section starts here -->
       <section class="container pt-5 pb-5">
-        <h1 style="text-align: center ;" class="fw-bold">Students Feedback</h1>
-        <div class="d-flex pt-3 gap-5">
-            <div class="col card mb-1" style="max-width: 500px;">
-                <div class="row g-0 justify-content-center align-items-center">
+        <h1 style="text-align: center ;" class="fw-bold s-s-h1">Students Feedback</h1>
+        <div style="margin-left: 50px ;" class="d-flex pt-3 gap-5 sixth-section">
+            <div class="col card mb-1 sixth-section-div" style="max-width: 500px;">
+                <div class="row g-0 justify-content-center align-items-center sixth-section-div">
                     <div class="d-flex container">
-                        <div style="">
+                        <div>
                             <img src="images/comma.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                        <div style="margin-left:310px;">
+                        <div class="sixth-stars" style="margin-left:310px;">
                             <i style="color: gold ;" class="fa-solid fa-star"></i>
                             <i style="color: gold ;" class="fa-solid fa-star"></i>
                             <i style="color: gold ;" class="fa-solid fa-star"></i>
@@ -453,7 +458,7 @@
                         <div >
                             <img  src="images/comma.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                        <div style="margin-left:310px;">
+                        <div class="sixth-stars" style="margin-left:310px;">
                             <i style="color: gold ;" class="fa-solid fa-star"></i>
                             <i style="color: gold ;" class="fa-solid fa-star"></i>
                             <i style="color: gold ;" class="fa-solid fa-star"></i>
